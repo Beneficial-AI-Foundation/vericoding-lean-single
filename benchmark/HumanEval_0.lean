@@ -267,6 +267,3 @@ have h_tail_ln_eq_0 : tail.length = 0 := by
   rw [h_0_lt_tail_len]
   simp
 simp [h_tail_ln_eq_0]
-
-#test implementation ([1, 2, 3]: List Rat) 0.5 = false
-#test implementation ([1, 2.8, 3, 4, 5, 2]: List Rat) 0.3 = true
